@@ -1,0 +1,55 @@
+
+
+body {
+  margin: 0;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin-inline: auto;
+  justify-content: center;
+}
+.role-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-block: 50px 80px;
+}
+
+.role-menu button {
+  flex: 1;
+  border: none;
+  background: rgb(200, 200, 200);
+  border-radius: 10px;
+  color: #fff;
+  padding: 12px 10px;
+  font-family: inherit;
+  font-size: 22px;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+}
+
+.role-menu button:hover {
+  color: #2563eb;
+}
+
+.role-menu button.active {
+  color: #2563eb;
+}
+
+.role-info {
+  padding-left: 10px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.role-info p {
+  margin: 0 0 32px;
+}
+
+.role-info strong {
+  font-weight: 700;
+}
